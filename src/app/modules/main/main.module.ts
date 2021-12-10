@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { WeatherComponent } from './components/weather/weather.component';
 import { HazardmapComponent } from './components/hazardmap/hazardmap.component';
+import { MainDashboardComponent } from './components/main-dashboard/main-dashboard.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HazardmapComponent } from './components/hazardmap/hazardmap.component';
     FooterComponent,
     AboutUsComponent,
     WeatherComponent,
-    HazardmapComponent
+    HazardmapComponent,
+    MainDashboardComponent
   ],
   imports: [
     CommonModule,
