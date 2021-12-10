@@ -1,0 +1,17 @@
+.custom-toolbar{
+    padding-left: 20px;
+    color: white;
+}
+.anchor_class{
+    margin-left: 70%;
+    position: fixed;
+}
+a{
+    padding-left: 10px;
+    color: white;
+}
+mat-toolbar{
+    background-color: rgb(23, 23, 153);
+    font-size: 25px;
+    height: 60px;
+}

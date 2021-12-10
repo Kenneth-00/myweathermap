@@ -9,6 +9,9 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { WeatherComponent } from './components/weather/weather.component';
 import { HazardmapComponent } from './components/hazardmap/hazardmap.component';
 import { MainDashboardComponent } from './components/main-dashboard/main-dashboard.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 @NgModule({
@@ -23,7 +26,9 @@ import { MainDashboardComponent } from './components/main-dashboard/main-dashboa
   ],
   imports: [
     CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    MatToolbarModule,
+    MatButtonModule
   ]
 })
 export class MainModule { }
