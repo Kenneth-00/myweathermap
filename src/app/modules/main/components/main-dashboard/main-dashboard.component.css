@@ -1,8 +1,13 @@
 .app-conatiner {
     position: absolute;
     top: 60px;
-    bottom: 0;
+    /* bottom: 0;
     left: 0;
-    right: 0;
-    background-image: linear-gradient(darkblue, darkviolet, violet);
+    right: 0; */
+    /* background-image: linear-gradient(darkblue, darkviolet, violet); */
+}
+img{
+    height: 100%;
+    width: 100%;
+    position: fixed;
 }
