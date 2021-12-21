@@ -11,6 +11,8 @@ import { HazardmapComponent } from './components/hazardmap/hazardmap.component';
 import { MainDashboardComponent } from './components/main-dashboard/main-dashboard.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -28,7 +30,9 @@ import {MatButtonModule} from '@angular/material/button';
     CommonModule,
     MainRoutingModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule,
+    MatIconModule
   ]
 })
 export class MainModule { }
